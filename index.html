@@ -10,7 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 900px)" />
   </head>
   <body>
     <header>
@@ -21,7 +22,7 @@
           Batatabit te ayuda a navegar entre los diferentes precios y
           tendencias.
         </p>
-        <a href="" class="header__title-container--button"
+        <a href="#plans" class="header__title-container--button"
           >Conoce Nuestros Planes <span></span>
         </a>
       </div>
@@ -72,8 +73,6 @@
               <p><strong>Actualizado:</strong> 19 de Julio 23:45</p>
             </div>
           </div>
-        </section>
-        <section class="exchange-container__tables">
           <div class="currency-table">
             <p class="currency-table__title title-commissions">Comisiones</p>
             <div class="currency-table__container">
@@ -118,8 +117,6 @@
               más determinan el comportamiento.
             </p>
           </article>
-        </section>
-        <section class="product-cards__content">
           <article class="product-detail__card">
             <span class="product__card--icon icon-eye"></span>
             <p class="product__card--title">No hay tasas escondidas</p>
@@ -128,8 +125,6 @@
               el costo real de lo que estás adquiriendo.
             </p>
           </article>
-        </section>
-        <section class="product-cards__content">
           <article class="product-detail__card">
             <span class="product__card--icon icon-cash"></span>
             <p class="product__card--title">Compara monedas</p>
@@ -138,8 +133,6 @@
               en el mercado actual.
             </p>
           </article>
-        </section>
-        <section class="product-cards__content">
           <article class="product-detail__card">
             <span class="product__card--icon icon-check"></span>
             <p class="product__card--title">Información confiable</p>
@@ -151,9 +144,64 @@
         </section>
       </section>
       <!--  -->
-      <section></section>
-      <section></section>
+      <section class="bitcoin-img-container">
+        <h2>Conócelo hoy.</h2>
+      </section>
+      <!--  -->
+      <section id="plans" class="plans-container">
+        <div class="plans__title">
+          <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+          <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+        </div>
+        <section class="plans__slider">
+          <article class="plans__card">
+            <p class="recommended">Mensual</p>
+            <div class="plan-card-container">
+              <h3 class="plan-card__title">Pago Mensual</h3>
+              <p class="plan-card__price"><span>$</span>19</p>
+              <p class="plan-card__saving">
+                *Accesso limitado a la informacion.
+              </p>
+              <button class="plan-card__ca">Escoger este <span></span></button>
+            </div>
+          </article>
+          <article class="plans__card">
+            <p class="recommended">Semestral</p>
+            <div class="plan-card-container">
+              <h3 class="plan-card__title">Pago Semanal</h3>
+              <p class="plan-card__price"><span>$</span>59</p>
+              <p class="plan-card__saving">
+                *Accesso a la informacion en tiempo real.
+              </p>
+              <button class="plan-card__ca">Escoger este <span></span></button>
+            </div>
+          </article>
+          <article class="plans__card">
+            <p class="recommended">Recomendado</p>
+            <div class="plan-card-container">
+              <h3 class="plan-card__title">Pago Anual</h3>
+              <p class="plan-card__price"><span>$</span>99</p>
+              <p class="plan-card__saving">
+                *Ahorras $129 comparado al plan mensual.
+              </p>
+              <button class="plan-card__ca">Escoger este <span></span></button>
+            </div>
+          </article>
+        </section>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <section class="left">
+        <ul>
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Crunchbase</a></li>
+          <li><a href="#">Hackernews</a></li>
+        </ul>
+      </section>
+      <section class="right">
+        <img src="./assets/icons/potato.svg" alt="Logo of Batatabit 2020" />
+        <p>® Batatabit 2020</p>
+      </section>
+    </footer>
   </body>
 </html>

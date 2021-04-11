@@ -1,0 +1,16 @@
+.exchange-container__tables {
+  display: flex;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.product-cards__content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 20px;
+  width: 900px;
+}
+
+.plans__slider {
+  justify-content: center;
+}
